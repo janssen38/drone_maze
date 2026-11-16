@@ -19,6 +19,12 @@
                     <size>0.006 0.02 0.02</size>
                 </box>
             </geometry>
+            <material>
+                <ambient>1.0 0.22 0.66 1.0</ambient>    <!-- color under ambient light -->
+                <diffuse>0.1 0.022 0.066 1.0</diffuse>  <!-- color under direct white light -->
+                <specular>1.0 0.22 0.66 1.0</specular>    <!-- shine -->
+                <emissive>1.0 0.22 0.66 1.0</emissive>  <!-- appearance that light is emitted from object-->
+            </material>
         </visual>
 
         
